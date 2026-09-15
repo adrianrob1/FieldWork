@@ -1,0 +1,8 @@
+version: 1
+title: Optimizer research sample
+paths:
+  projects: projects
+  chats: chats
+  topics: topics
+  inbox: inbox
+  external: external

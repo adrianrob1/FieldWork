@@ -1,0 +1,210 @@
+{
+  "command": "context",
+  "success": true,
+  "data": {
+    "query": "preconditioning",
+    "scope": {
+      "kind": "global"
+    },
+    "selectedBranches": [
+      {
+        "id": "topic_preconditioning",
+        "title": "Matrix preconditioning",
+        "kind": "topic",
+        "project": null,
+        "path": "topics/preconditioning.md",
+        "score": {
+          "exactId": 0,
+          "exactTitle": 0,
+          "keywords": 0,
+          "keywordMatches": [],
+          "fts": 2.728012,
+          "topic": 3,
+          "total": 5.728012
+        }
+      },
+      {
+        "id": "summary_evon",
+        "title": "Evolutionary optimization",
+        "kind": "project",
+        "project": "project_evon",
+        "path": "projects/evolutionary-optimization/README.md",
+        "score": {
+          "exactId": 0,
+          "exactTitle": 0,
+          "keywords": 0,
+          "keywordMatches": [],
+          "fts": 0,
+          "topic": 3,
+          "total": 3
+        }
+      }
+    ],
+    "files": [
+      {
+        "path": "topics/preconditioning.md",
+        "objectId": "topic_preconditioning",
+        "type": "summary",
+        "repositoryId": null,
+        "content": "---\nid: topic_preconditioning\ntitle: Matrix preconditioning\nkind: topic\nsummary: Cross-project notes about matrix-valued optimizer statistics.\nsources:\n  - chat_shared_curvature\n  - chat_rank_diagnostics\nreviewed: 2026-09-02\n---\n\n# Matrix preconditioning\n\nBoth sample projects use this topic.\n",
+        "contentTruncated": false,
+        "lineRanges": [
+          {
+            "start": 2,
+            "end": 2
+          },
+          {
+            "start": 3,
+            "end": 3
+          },
+          {
+            "start": 12,
+            "end": 12
+          }
+        ],
+        "score": {
+          "branch": 5.728012,
+          "text": 2.728012,
+          "total": 8.456024
+        },
+        "trail": {
+          "branch": "topic_preconditioning",
+          "route": "summary",
+          "via": null
+        }
+      },
+      {
+        "path": "chats/2026-09-02-rank-diagnostics.md",
+        "objectId": "chat_rank_diagnostics",
+        "type": "chat",
+        "repositoryId": null,
+        "content": "---\nid: chat_rank_diagnostics\ntitle: Rank diagnostics\ncreated: 2026-09-02T10:00:00Z\nprojects:\n  - project_evon\n  - project_posterior_diagnostics\ntopics:\n  - topic_preconditioning\nprovider: local\nmodel: sample-model\nmessages: []\n---\n\n# Rank diagnostics\n\nThis discussion began unassigned, then joined `project_evon`, now titled\nEvolutionary optimization, and became the basis for the posterior diagnostics project.\n",
+        "contentTruncated": false,
+        "lineRanges": [
+          {
+            "start": 9,
+            "end": 9
+          }
+        ],
+        "score": {
+          "branch": 5.728012,
+          "text": 0,
+          "total": 5.728012
+        },
+        "trail": {
+          "branch": "topic_preconditioning",
+          "route": "source",
+          "via": "chat_rank_diagnostics"
+        }
+      },
+      {
+        "path": "chats/2026-09-02-shared-curvature.md",
+        "objectId": "chat_shared_curvature",
+        "type": "chat",
+        "repositoryId": null,
+        "content": "---\nid: chat_shared_curvature\ntitle: Shared curvature statistics\ncreated: 2026-09-02T09:00:00Z\nprojects:\n  - project_evon\ntopics:\n  - topic_preconditioning\nprovider: openai\nmodel: sample-model\nmessages: []\n---\n\n# Shared curvature statistics\n\nWe compared how both projects name and store matrix-valued optimizer statistics.\n",
+        "contentTruncated": false,
+        "lineRanges": [
+          {
+            "start": 8,
+            "end": 8
+          }
+        ],
+        "score": {
+          "branch": 5.728012,
+          "text": 0,
+          "total": 5.728012
+        },
+        "trail": {
+          "branch": "topic_preconditioning",
+          "route": "source",
+          "via": "chat_shared_curvature"
+        }
+      },
+      {
+        "path": "projects/evolutionary-optimization/README.md",
+        "objectId": "summary_evon",
+        "type": "summary",
+        "repositoryId": null,
+        "content": "---\nid: summary_evon\ntitle: Evolutionary optimization\nkind: project\nproject: project_evon\nsummary: Routes questions about variational updates and structured curvature.\nsources:\n  - resource_evon_posterior\nreviewed: 2026-09-02\n---\n\n# Evolutionary optimization\n\nRead `context/posterior.md` for the working account of posterior updates.\n",
+        "contentTruncated": false,
+        "lineRanges": [],
+        "score": {
+          "branch": 3,
+          "text": 0,
+          "total": 3
+        },
+        "trail": {
+          "branch": "summary_evon",
+          "route": "summary",
+          "via": null
+        }
+      },
+      {
+        "path": "projects/evolutionary-optimization/context/posterior.md",
+        "objectId": "resource_evon_posterior",
+        "type": "resource",
+        "repositoryId": null,
+        "content": "---\nid: resource_evon_posterior\ntitle: Posterior update notes\nkind: note\nprojects:\n  - project_evon\ntopics:\n  - topic_preconditioning\n---\n\n# Posterior update notes\n\nThe working approximation stores matrix-valued second-order statistics.\n",
+        "contentTruncated": false,
+        "lineRanges": [
+          {
+            "start": 8,
+            "end": 8
+          }
+        ],
+        "score": {
+          "branch": 3,
+          "text": 0,
+          "total": 3
+        },
+        "trail": {
+          "branch": "summary_evon",
+          "route": "source",
+          "via": "resource_evon_posterior"
+        }
+      },
+      {
+        "path": "projects/evolutionary-optimization/project.yml",
+        "objectId": "project_evon",
+        "type": "project",
+        "repositoryId": null,
+        "content": "id: project_evon\ntitle: Evolutionary optimization\nsummary: Structured variational optimization using matrix-valued statistics.\nrepositories:\n  - id: resource_repo_evon\n    path: ../../repositories/evon\nresources:\n  - resource_evon_posterior\ntopics:\n  - topic_preconditioning\nx-sample-note: retained across the rename\n",
+        "contentTruncated": false,
+        "lineRanges": [
+          {
+            "start": 10,
+            "end": 10
+          }
+        ],
+        "score": {
+          "branch": 3,
+          "text": 0,
+          "total": 3
+        },
+        "trail": {
+          "branch": "summary_evon",
+          "route": "project",
+          "via": "project_evon"
+        }
+      }
+    ],
+    "timings": {
+      "refreshMs": 79.968,
+      "routingMs": 3.375,
+      "searchMs": 34.534,
+      "totalMs": 117.878
+    }
+  },
+  "diagnostics": [
+    {
+      "code": "rg.missing",
+      "severity": "warning",
+      "file": "C:\\Users\\adria\\AppData\\Local\\Temp\\fieldwork-retrieval-QUL2gI",
+      "fieldPath": null,
+      "message": "The 'rg' executable was not found on PATH; repository search is unavailable. Install ripgrep: https://github.com/BurntSushi/ripgrep",
+      "line": null,
+      "column": null
+    }
+  ]
+}

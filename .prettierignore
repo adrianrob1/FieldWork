@@ -1,0 +1,10 @@
+dist/
+coverage/
+node_modules/
+examples/
+mockups/
+scripts/
+test-results/
+playwright-report/
+*.md
+package-lock.json

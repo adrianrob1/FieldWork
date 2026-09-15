@@ -1,0 +1,35 @@
+{
+  "command": "project show",
+  "success": true,
+  "data": {
+    "id": "project_evon",
+    "title": "Evolutionary optimization",
+    "summary": "Structured variational optimization using matrix-valued statistics.",
+    "topics": ["topic_preconditioning"],
+    "directory": "evolutionary-optimization",
+    "repositories": [
+      {
+        "id": "resource_repo_evon",
+        "title": null,
+        "resolvedPath": "C:\\Users\\adria\\AppData\\Local\\Temp\\opencode\\worktrees\\cli-shell\\examples\\sample-workspace\\repositories\\evon",
+        "accessible": true
+      }
+    ],
+    "resources": ["resource_evon_posterior"],
+    "links": [],
+    "chats": [
+      {
+        "id": "chat_rank_diagnostics",
+        "title": "Rank diagnostics",
+        "file": "C:\\Users\\adria\\AppData\\Local\\Temp\\opencode\\worktrees\\cli-shell\\examples\\sample-workspace\\chats\\2026-09-02-rank-diagnostics.md"
+      },
+      {
+        "id": "chat_shared_curvature",
+        "title": "Shared curvature statistics",
+        "file": "C:\\Users\\adria\\AppData\\Local\\Temp\\opencode\\worktrees\\cli-shell\\examples\\sample-workspace\\chats\\2026-09-02-shared-curvature.md"
+      }
+    ],
+    "readmeSummaryTitle": "Evolutionary optimization"
+  },
+  "diagnostics": []
+}

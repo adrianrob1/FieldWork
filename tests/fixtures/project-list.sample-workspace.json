@@ -1,0 +1,24 @@
+{
+  "command": "project list",
+  "success": true,
+  "data": {
+    "projects": [
+      {
+        "id": "project_evon",
+        "title": "Evolutionary optimization",
+        "directory": "evolutionary-optimization"
+      },
+      {
+        "id": "project_posterior_diagnostics",
+        "title": "Posterior diagnostics",
+        "directory": "posterior-diagnostics"
+      },
+      {
+        "id": "project_soap_bubbles",
+        "title": "SOAP-Bubbles",
+        "directory": "soap-bubbles"
+      }
+    ]
+  },
+  "diagnostics": []
+}

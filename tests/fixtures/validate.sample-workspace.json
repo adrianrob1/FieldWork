@@ -1,0 +1,18 @@
+{
+  "command": "validate",
+  "success": true,
+  "data": {
+    "files": {
+      "workspace": 1,
+      "project": 3,
+      "chat": 3,
+      "resource": 2,
+      "summary": 5,
+      "link": 0,
+      "task": 4
+    },
+    "errors": 0,
+    "warnings": 0
+  },
+  "diagnostics": []
+}

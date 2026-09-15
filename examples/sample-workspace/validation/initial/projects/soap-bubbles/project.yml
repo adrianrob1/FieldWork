@@ -1,0 +1,10 @@
+id: project_soap_bubbles
+title: SOAP-Bubbles
+summary: Scaling experiments for matrix preconditioners.
+repositories:
+  - id: resource_repo_soap_bubbles
+    path: ../../repositories/soap-bubbles
+resources:
+  - resource_soap_scaling
+topics:
+  - topic_preconditioning

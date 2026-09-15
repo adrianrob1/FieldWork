@@ -1,0 +1,11 @@
+id: project_evon
+title: Evolutionary optimization
+summary: Structured variational optimization using matrix-valued statistics.
+repositories:
+  - id: resource_repo_evon
+    path: ../../repositories/evon
+resources:
+  - resource_evon_posterior
+topics:
+  - topic_preconditioning
+x-sample-note: retained across the rename
